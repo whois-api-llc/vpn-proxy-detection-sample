@@ -1,6 +1,6 @@
 # VPN & Proxy Detection: public data sample, 2026-11-22
 
-A sample of the bulk data files, with the same columns as the paid ranges and points files, in CSV, NDJSON and Parquet. It holds 197 IPv4 rows drawn from the 2026-11-22 build. The full files come with the Business and Enterprise plans.
+A sample of the bulk data files, with the same columns as the paid ranges and points files, in CSV, NDJSON and Parquet. It holds 197 IPv4 rows drawn from the 2026-11-22 build. The full files come with the paid plans: from Pro, the network table as CSV, zstd CSV or NDJSON; from Business, every file of both tables, Parquet and MMDB included.
 
 | Classification | Rows |
 | --- | --- |
@@ -59,3 +59,12 @@ A sample of the bulk data files, with the same columns as the paid ranges and po
 | `is_known_bot` | boolean | Whether the IP is on one of the address lists that bot operators publish for their own bots. A range the operator also lists for a service that runs its customers' code is left out. It says who publishes the address, not whether its traffic is wanted; it is not a risk flag. |
 | `bot_operator` | string or empty | The operator that publishes that list, for example `google`. Empty when `is_known_bot` is false. |
 | `bot_types` | list of strings | What the operator says those bots are for, for example `search` (a JSON array in CSV). Empty when `is_known_bot` is false. |
+
+## Plans and docs
+
+- Plans and prices: https://vpn-proxy-detection.whoisxmlapi.com/api/pricing
+- Column reference: https://vpn-docs.wxapros.com/guides/bulk-export
+
+## Terms
+
+Use of this sample is subject to WhoisXML API's Terms of Service: https://main.whoisxmlapi.com/terms-of-service
