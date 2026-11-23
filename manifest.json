@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "sample": true,
+  "version": "20261122",
+  "source_build": {
+    "ranges_file": "wxa_vpn_ranges_20261122.parquet",
+    "version": "20261122",
+    "generated_at": "2026-11-22T08:24:24Z",
+    "data_as_of": "2026-11-22T06:30:01.746793+00:00"
+  },
+  "record_counts": {
+    "ip_ranges": 197,
+    "ip_points": 0
+  },
+  "classification_counts": {
+    "cdn": 30,
+    "commercial_vpn": 10,
+    "hosting": 50,
+    "relay": 25,
+    "tor": 25,
+    "vpn": 57
+  },
+  "files": [
+    {
+      "filename": "wxa_vpn_sample_ranges_20261122.csv",
+      "format": "csv",
+      "table": "ranges",
+      "record_count": 197,
+      "size_bytes": 33495,
+      "checksums": {
+        "md5": "33bc81d9b3c1cc2674af2c2961e3c03e",
+        "sha1": "b1d0ce60a31eedbab012011a85c515c7a2d8cb61",
+        "sha256": "7abe295f0e8095b3d7172e60d484f4e4cade3859d74c77ad209ec2375329e900",
+        "sha512": "920d1979e7428dd2afcff2a132c557d443badff9ec7f586808dc5e5b166f1c537bf6e091481ce6a64c0c2d3d3d84bed85046d6962c9674b05f27a7b35541033f"
+      },
+      "sha256": "7abe295f0e8095b3d7172e60d484f4e4cade3859d74c77ad209ec2375329e900"
+    },
+    {
+      "filename": "wxa_vpn_sample_ranges_20261122.ndjson",
+      "format": "ndjson",
+      "table": "ranges",
+      "record_count": 197,
+      "size_bytes": 71706,
+      "checksums": {
+        "md5": "33013762a7e7469aa38191cbf80f910e",
+        "sha1": "dd6b5b0bba27fa72f9bd19126cb15968372d1754",
+        "sha256": "7d2fd41719cfff38b4b855cb37e7d3f2991a35bb9086604d5a175c7087050551",
+        "sha512": "1f4471450f0600bf1c7b5a65cfb095404042df3859a4c7ba4a188ccd21b486d25b0eac35d6cf206cf58b79efdd658f3edfef7573048f58ad0a6f38ff15376052"
+      },
+      "sha256": "7d2fd41719cfff38b4b855cb37e7d3f2991a35bb9086604d5a175c7087050551"
+    },
+    {
+      "filename": "wxa_vpn_sample_ranges_20261122.parquet",
+      "format": "parquet",
+      "table": "ranges",
+      "record_count": 197,
+      "size_bytes": 11826,
+      "checksums": {
+        "md5": "7811aa1d145390dc9bd5cf85bc378719",
+        "sha1": "686ec0775c985d2ee46dffe93a28769676412c35",
+        "sha256": "9195cb6fef37950a6355586bf932d6c0f349a3550d7f8aca70dc4ceaab3152d5",
+        "sha512": "9519e8981c596eac3b5f5001bdea2a83b42d7d1f11cea6159d1d7deff1496e1429152d0ab0f49d184a1425b409f85eb68e3d1bd2a464f67a444ed8999ba733e3"
+      },
+      "sha256": "9195cb6fef37950a6355586bf932d6c0f349a3550d7f8aca70dc4ceaab3152d5"
+    },
+    {
+      "filename": "wxa_vpn_sample_points_20261122.csv",
+      "format": "csv",
+      "table": "points",
+      "record_count": 0,
+      "size_bytes": 172,
+      "checksums": {
+        "md5": "1a78b299f857a33d2c25d296a5c64992",
+        "sha1": "15c16c70386dffa46387ee622002bcdb4b6ec7bc",
+        "sha256": "c39402de7ea941b00a086df7dfe50e28cbc3eb3e1f5ae716f5d2dda6c2187c7f",
+        "sha512": "4a33b448c1078a836164f03d5fa903d05d2f5ef165196d087533409f3900da02a3dcb8210ca46cea92da681e5aec84c2ddc97a8deaec1b7750941f018ebe6a5e"
+      },
+      "sha256": "c39402de7ea941b00a086df7dfe50e28cbc3eb3e1f5ae716f5d2dda6c2187c7f"
+    },
+    {
+      "filename": "wxa_vpn_sample_points_20261122.parquet",
+      "format": "parquet",
+      "table": "points",
+      "record_count": 0,
+      "size_bytes": 2879,
+      "checksums": {
+        "md5": "9c8e953fa21d46a49e537f97016a966c",
+        "sha1": "19b48a87abe3c9aabd398cd9d1043c4038d48a5a",
+        "sha256": "2110166ce6f764c6cc9b0fb76ce06d7478a6072f60a08465021fdd646683e655",
+        "sha512": "4324268e463d012e553c4581130eca3bf3003222118bfca92efe29ea549d4b88713cb70aabbeaf9c7ac1bf43483e55011581a1abe4ad6a00eb1a5b2c4bab959a"
+      },
+      "sha256": "2110166ce6f764c6cc9b0fb76ce06d7478a6072f60a08465021fdd646683e655"
+    }
+  ]
+}
